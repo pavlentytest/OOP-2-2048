@@ -5,6 +5,10 @@ public class Main {
         Cat barsik = new Cat("Barsik");
         barsik.makeSound();
         barsik.makeSound("dfgdfga");
+        System.out.println(barsik.age);
+        // final поле
+        Cat.BBB = "123123";
+        System.out.println(Cat.color);
 
         Animal murka = new Animal("Murka");
         murka.makeSound();

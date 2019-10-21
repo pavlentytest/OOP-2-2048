@@ -2,9 +2,14 @@ package ru.samsungitacademy;
 
 public class Cat extends Animal {
 
+    public static String color = "Black";
+    public static final String BBB = "BBB";
+
     Cat(String n) {
         // Вызов конструктора Animal
         super(n);
+        this.age = 100;
+
        // this.name
     }
     Cat() {
